@@ -74,20 +74,19 @@ nav ul a li {
 
 /* ---------------------------------------------------------------------------------  Estilos main ---------------------------------------------------_> */
 
-
 .container-ingresar{
     display: flex;
     justify-content: center;
-    margin-top: 50px;
+    margin-top: 9vh;
     margin-bottom: 50px;
 }
 .foto-ingresa{
     background-position: center;
     background-size: 100%;
     background-image: url(./img/arrow.png);
-    height: 600px;
+    height: 90vh;
     background-color: #e0e5e7;
-    width:500px;
+    flex-basis: 40%;
     background-repeat: no-repeat;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
@@ -104,8 +103,9 @@ aside {
     display: flex;
     flex-direction: column;
     background-color: #bfbfe7;
-    width: 450px;
+    flex-basis: 40%;
     align-items: center;
+    padding-top: 8vh;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
     
@@ -115,32 +115,70 @@ input{
     border-radius: 10px ;
     height: 40px;
     width: 350px;
+    margin-bottom: 1vh;
 }
 
 label{
     color: rgb(126, 121, 121);
-    padding-right: 50px;
-    margin-bottom:6px;
+    padding-right: 20vw;
+    margin-bottom:1vh;
+}
+
+.stay-checkbox{
+    padding-right: 0vw;
+    width: 1vw;
 }
 
 h6{
     margin-top: 30px;
     color: rgb(126, 121, 121);
     font-size: 12px;
+    margin-bottom: 2vh;
 }
 
 .boton-signin{
-    background-color: #f26d21;
-    border: 1px solid #f26d21;
+    background-color: #0e71eb;
+    border: 1px solid #0e71eb;
     border-radius: 10px;
     height: 35px;
     color: #fff;
     font-size: 14px;
     font-weight: 500;
     cursor:pointer;
-    width: 150px;
+    width: 27vw;
 }
 
+span{
+    color: #0956B5;
+}
+
+/* ----------------------------------------------------------------------------------- ESTILOS FOOTER -----------------------------------------------------------*/
+
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+.main-container {
+    background-color: #555;
+    color: #bbb;
+    display: flex;
+    justify-content: space-around;
+    width: 75vw;
+    flex-wrap: nowrap;
+    margin: ;
+}
+
+.ila{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.columna{
+    display: flex;
+    flex-direction: column;
+    
 /*
 
 
