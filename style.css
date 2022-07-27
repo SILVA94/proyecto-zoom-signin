@@ -1,3 +1,5 @@
+/*----------------------------------------------- Estilos para que se remover caracteristicas primarios de elemntos ----------------------------------------- */
+
 *{
     padding: 0;
     margin: 0;
@@ -7,23 +9,25 @@ a:link, a:visited, a:active {
     text-decoration:none;
 }
 
+/*------------------------------------------------------------------------ Estilos header ---------------------------------------------------------------------*/
+
 .barra-contacto{
     list-style:none;
     background-color: #39394d;
     display: flex;
     flex-direction: row-reverse;
+    justify-content: flex-start;
     align-items: center;
-    height: 35px;
-    padding-right: 50px;
-    
-   
+    height: 6.5vh;
+    width: 99vw;   
 }
 
 nav ul a li {
-    margin-right: 20px;
+    margin-right: 2vw;
     color: white;
     font-family: 'Lato','Helvetica','Arial';
     font-size: 10px;
+    display: flex;
    
 }
 
@@ -38,7 +42,8 @@ nav ul a li {
     justify-content: space-evenly;
     margin-left:40px;
     padding:auto;
-    width: 50%;
+    width: 44vw;
+
 
 }
 
@@ -46,18 +51,20 @@ nav ul a li {
     display:flex;
     justify-content:space-around;
     list-style:none;
-    padding-left:200px;
+    padding-left :20vw;
     align-items:center;
     font-size:13px;
     color:#0c63ce;
     width: 30%;
-    
+    flex-wrap: wrap;
 }
 
 .container-menus{
     display:flex;
     height:50px;
     margin-top: 10px;
+    flex-wrap: wrap;
+    
 }
 
 .boton-ingreso{
